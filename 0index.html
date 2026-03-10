@@ -1,32 +1,10 @@
-<?php
-//declarar atributos (mesma coisa que variaveis)
-$imagem = "midias/pweb1.webp";
-$titulo = "Monitor LG";
-$resumo = "Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-4
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Acesse a Loja Oficial de LG
-Novo  |  +1000 vendidos
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10";
-$valor = "R$759,05";
-$quantidade = "2";
-$i = 1;
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> O Lojinha</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
 <body>
   <header>
@@ -98,24 +76,8 @@ $i = 1;
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <div class="row">
-      <?php while ($i<=10) {?>
-      <div class="col mt-2">
-      <div class="card" style="width: 18rem;">
-  <img src="<?php echo $imagem;?>" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"><?php echo $titulo;?></h5>
-    <p class= "card-text"><?php echo $resumo;?></p>
-    <p class ="text-danger"> valor: <b> R$ <?php echo $valor;?></p>
-    <p class ="text-primary"> Estoque: <?php echo $quantidade;?></p>
-    <a href="#" class="btn btn-primary">Ver Produto</a>
-  </div>
-</div>
-      </div>
-      <?php $i++;} //$i=$i+1?>
-    </div>
  </main>
 
- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
