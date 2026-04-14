@@ -2,18 +2,15 @@
 //declarar atributos (mesma coisa que variaveis)
 $imagem = "midias/pweb1.webp";
 $titulo = "Monitor LG";
-$resumo = "Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-4
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10
-Acesse a Loja Oficial de LG
-Novo  |  +1000 vendidos
-Monitor LG UltraGear 27G411A-B 27,FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10";
+$resumo = "LG UltraGear 27G411A-B – Principais informações
+Tamanho: 27 polegadas
+Resolução: Full HD (1920x1080)
+Taxa de atualização: 144 Hz (imagem bem fluida, ideal para jogos)
+Tempo de resposta: 1 ms (MBR) (reduz borrões em movimentos rápidos)
+Tecnologias de sincronização:
+Compatível com NVIDIA G-SYNC
+Suporte a AMD FreeSync
+HDR: HDR10 (melhor contraste e cores, embora básico)";
 $valor = "R$759,05";
 $quantidade = "2";
 $i = 1;
